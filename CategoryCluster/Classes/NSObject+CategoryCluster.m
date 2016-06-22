@@ -18,4 +18,8 @@
     return [[UIApplication sharedApplication] keyWindow];
 }
 
+- (id<UIApplicationDelegate>)cc_applicationDelegate {
+    return [UIApplication sharedApplication].delegate;
+}
+
 @end

@@ -24,4 +24,6 @@
  */
 - (UIWindow *)cc_keyWindow;
 
+- (id<UIApplicationDelegate>)cc_applicationDelegate;
+
 @end
