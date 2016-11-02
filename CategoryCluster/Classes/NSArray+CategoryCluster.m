@@ -41,7 +41,7 @@
             NSDate *iterateDate = [obj valueForKeyPath:keyPath];
             switch (info) {
                 case CCSplitDateArraysInfoDay: {
-                    return iterateDate.day == date.day;
+                    return iterateDate.day == date.day && iterateDate.month == date.month;
                 }
                 case CCSplitDateArraysInfoMonth: {
                     return iterateDate.month == date.month;
